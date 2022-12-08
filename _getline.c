@@ -1,5 +1,5 @@
 #include "simple_shell.h"
-/** 
+/**
 *_getline - read the input
 *Return: The line readed
 */
