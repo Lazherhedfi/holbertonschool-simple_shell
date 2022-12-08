@@ -1,5 +1,5 @@
 #include "simple_shell.h"
-/** 
+/**
 *_exec - execute the command
 *@cmd: the command
 *@array: array holdin the argments
