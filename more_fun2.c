@@ -1,5 +1,6 @@
 #include "simple_shell.h"
 char *_memcpy(char *dest, char *src, unsigned int n);
+
 /** 
  **_realloc -  a function that reallocates a memory block using malloc and free
  *@ptr : pointer
