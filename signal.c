@@ -7,7 +7,7 @@ void sig(int signal)
 {
 	if (signal == SIGINT)
 	{
-		_putchar(' ');
+		_putchar('\0');
 		_putchar('>');
 		_putchar(' ');
 	}
