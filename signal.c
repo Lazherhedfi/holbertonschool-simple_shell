@@ -1,5 +1,5 @@
 #include"simple_shell.h"
-/** 
+/**
 *sig - signal handler
 *@signal: input
 */
