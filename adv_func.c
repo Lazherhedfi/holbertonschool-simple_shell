@@ -21,7 +21,7 @@ char *_getenv(char *name)
 			return (c + 1);
 		env++;
 	}
-	return (NULL);
+	return (0);
 }
 /**
  * _calloc - a function that allocates memory for an array, using malloc.
