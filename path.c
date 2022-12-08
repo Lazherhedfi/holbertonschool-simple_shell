@@ -1,4 +1,5 @@
 #include "simple_shell.h"
+
 /**  
 *path - cherche for the command location
 *@cmd: the command to treat
