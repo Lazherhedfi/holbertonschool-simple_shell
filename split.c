@@ -1,4 +1,5 @@
 #include"simple_shell.h"
+
 /**
 *split - divide the buffer to small segment
 *@line: the buffer to divide
