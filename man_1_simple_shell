@@ -61,3 +61,4 @@ A pipeline is a sequence of one or more commands separated by one of the control
 .SH BUGS
 - There is no known bugs at the moment.
 .SH AUTHORS
+Lazher Hedfi and Omar Elati
