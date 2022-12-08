@@ -24,7 +24,7 @@ int _exec(char *cmd, char **array)
 		if (execve(cmd, array, environ) != 0)
 		{
 			perror("fail to execute");
-			return (NULL);
+			return (-1);
 		}
 	}
 	else
