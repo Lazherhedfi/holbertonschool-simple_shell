@@ -11,8 +11,8 @@ The shell takes the commands from the standard input, executes them and gets rea
 As an example you can use the <b>ls</b> command for listing files in the current directory:
 ```sh
 $ ls
-AUTHORS    _atoi.c     _string.c  builtins.c  hsh     man_1_simple_shell  shell_exec.c    test
-README.md  _printer.c  _strtok.c  env.c       main.c  shell.h             shell_launch.c  test2
+AUTHORS    _getline.c     path.c       adv_func.c    hsh            man_1_simple_shell  exec.c
+README.md  split.c        base_func.c  more_func.c   more_fun2.c    main.c              simple_shell.h
 ```
 
 # Manual
@@ -34,6 +34,18 @@ DESCRIPTION
 INVOCATION
        In order to invoke this shell it is necessary to run the ./hsh command.
 ```
+
+## Installation
+clone the repository into new directory
+
+```bash
+$ git clone https://github.com/Lazherhedfi/holbertonschool-simple_shell.git
+```
+compile with the following :  
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
+
 # Authors
 * Omar Elati <github.com/OmarElati>
 * Lazher Hedfi <github.com/Lazherhedfi>
